@@ -21,7 +21,7 @@ public class CompanyController {
 	@PostMapping("/insert")
 	public String  insert(@RequestBody Insert_Companies ic){
 		ms.insert(ic);
-		return "Record Added";
+		return "Record Added SuccessFully";
 		
 	}
 }
